@@ -12,3 +12,8 @@ data class MovieSearchResult(
     @SerializedName("imdbID") val id: String,
     @SerializedName("Poster") val poster: String
 )
+
+data class Rating(
+    @SerializedName("Source") val source: String,
+    @SerializedName("Value") val value: String
+)
