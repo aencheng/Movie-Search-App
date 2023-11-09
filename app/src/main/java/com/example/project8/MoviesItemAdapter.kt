@@ -42,6 +42,8 @@ class MoviesItemAdapter(val context: Context) :
             }
         }
 
+        // Bind iterates through each Movie item in the initial list of movies and uses the call back
+        // function to access their individual details and the use that info to set those details for view
         @SuppressLint("SetTextI18n")
         fun bind(movie: OmdbMovies, context: Context) {
             fetchMovieDetails(movie.Title) { movieDetails ->
@@ -95,6 +97,7 @@ class MoviesItemAdapter(val context: Context) :
         }
 
 
+        // Call Back function that makes a second api call to fetch specific Movie Data
         fun fetchMovieDetails(movieTitle: String, onMovieDetailsFetched: (MovieSearchResult?) -> Unit) {
             val retrofit = Retrofit.Builder()
                 .baseUrl(BASE_URL)
