@@ -28,6 +28,10 @@ The following **extensions** are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+- Here is video after completing all of the mentioned requirements and successfully completing the additional challenge
+<img src='walkthrough7.gif' title='Video Walkthrough7' width='50%' alt='Video Walkthrough7' />
+
+- This is video of completion before the Clarifications Announcements
 <img src='walkthrough6.gif' title='Video Walkthrough6' width='50%' alt='Video Walkthrough6' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
